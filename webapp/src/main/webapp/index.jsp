@@ -1,6 +1,7 @@
 1. <!DOCTYPE html>   
 2. <html>   
-3. <head>  
+3. <head>
+   <head>
 4. <meta name="viewport" content="width=device-width, initial-scale=1">  
 5. <title> Login Page </title>  
 6. <style>   
