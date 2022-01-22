@@ -1,47 +1,38 @@
-<html>
-<head>
-<title>Login Page</title>
-</head>
-<body>
-<form name="loginForm" method="post" action="login.php">
-<table width="20%" bgcolor="0099CC" align="center">
-
-<tr>
-<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
-</tr>
-
-<tr>
-<td>given name:</td>
-<td><input type="text" size=25 name="userid"></td>
-</tr>
-
-<tr>
-<td>Password:</td>
-<td><input type="Password" size=25 name="pwd"></td>
-</tr>
-
-<tr>
-<td ><input type="Reset"></td>
-<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
-</tr>
-
-</table>
-</form>
-<script language="javascript">
-function check(form)
-{
-
-if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
-{
-	return true;
+body{
+margin: 100px;
+text-align: center;
+align: center;
 }
-else
-{
-	alert("Error Password or Username")
-	return false;
+ 
+input[type=text],[type=password],[type=number]{
+width: 20%;
+margin: 8px 0;
+padding: 7px 10px;
+display: inline-block;
+border:1px solid #ccc;
+box-sizing: border-box;
 }
+ 
+button{
+background-color:#4CAF50;
+width: 10%;
+padding: 9px 5px;
+margin:5px 0;
+cursor:pointer;
+border:none;
+color:#ffffff;
+margin-left: 80px;
 }
-</script>
-
-</body>
-</html>
+ 
+button:hover{
+opacity:0.8;
+}
+ 
+#fn,#ln,#un,#pwd,#em,#mn,#fm,#cy{
+font-family:'Lato', sans-serif;
+color: gray;
+}
+ 
+#em{
+margin-left:30px;
+}
