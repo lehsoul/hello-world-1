@@ -11,7 +11,7 @@
 </tr>
 
 <tr>
-<td>Username:</td>
+<td>Tenant name:</td>
 <td><input type="text" size=25 name="userid"></td>
 </tr>
 
