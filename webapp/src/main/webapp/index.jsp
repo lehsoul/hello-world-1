@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
+<h3>Example of Radio Buttons</h3>
 <body>
-
-<form>
-Username:<br>
-<input type="text" name="username">
-<br>
-Email id:<br>
-<input type="text" name="email_id">
-<br><br>
-<input type="submit" value="Submit">
-</form>
-
+	<form>
+		SELECT GENDER
+		<br>
+		<input type="radio" name="gender" id="male">
+		<label for="male">Male</label><br>
+		<input type="radio" name="gender" id="female">
+		<label for="female">Female</label>
+	</form>
 </body>
 </html>
+
 
